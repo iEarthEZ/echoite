@@ -3,15 +3,15 @@
 	"id": "echoite",
 	"version": "${version}",
 	"name": "Echoite",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a mod by iEarth60 for hackcraft 2026!",
 	"authors": [
-		"Me!"
+		"iEarth60"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "modsbyiearth60.org",
+		"sources": "https://github.com/iEarthEZ/echoite"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/echoite/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.iearth60.echoite.EchoiteDataGenerator"
+		],
+		"client": [
+			"com.iearth60.echoite.EchoiteClientClass"
 		]
 	},
 	"mixins": [
