@@ -1,5 +1,7 @@
 package com.iearth60.echoite;
 
+import com.iearth60.echoite.block.ModBlocks;
+import com.iearth60.echoite.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
@@ -13,9 +15,7 @@ public class Echoite implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-	}
-
-	public static Identifier id(String path) {
-		return Identifier.of(MOD_ID, path);
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
