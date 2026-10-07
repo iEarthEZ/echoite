@@ -89,5 +89,34 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.ECHOITE), conditionsFromItem(ModItems.ECHOITE))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ECHOITE_HELMET)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("   ")
+                .input('R', ModItems.ECHOITE)
+                .criterion(hasItem(ModItems.ECHOITE), conditionsFromItem(ModItems.ECHOITE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ECHOITE_CHESTPLATE)
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.ECHOITE)
+                .criterion(hasItem(ModItems.ECHOITE), conditionsFromItem(ModItems.ECHOITE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ECHOITE_LEGGINGS)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.ECHOITE)
+                .criterion(hasItem(ModItems.ECHOITE), conditionsFromItem(ModItems.ECHOITE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ECHOITE_BOOTS)
+                .pattern("   ")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.ECHOITE)
+                .criterion(hasItem(ModItems.ECHOITE), conditionsFromItem(ModItems.ECHOITE))
+                .offerTo(exporter);
     }
 }

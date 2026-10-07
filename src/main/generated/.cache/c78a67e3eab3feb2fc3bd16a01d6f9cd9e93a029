@@ -1,4 +1,4 @@
-// 1.21	2026-10-07T17:45:48.1930486	Echoite/Recipes
+// 1.21	2026-10-07T18:02:25.9034972	Echoite/Recipes
 4e751e2ede5013a29dff3dc9349d510ee2db2285 data\echoite\recipe\echoite_from_smelting_raw_echoite.json
 1a10ce17f53fdd4674b01cbeab7e004de0fbae62 data\echoite\recipe\raw_echoite.json
 ceb8324eb72d066ef05c8a605a7f1a80fc6dc2a2 data\echoite\recipe\echoite_shovel.json
@@ -8,9 +8,12 @@ be979e437f4a159775e0cc24c588613f6dc0d2e6 data\echoite\advancement\recipes\misc\e
 2702e709403a81264822939109485fde8e6df6d3 data\echoite\recipe\echoite_sword.json
 832dc745e219ce44dcc4f64ecf6c47380c958526 data\echoite\advancement\recipes\misc\echoite_from_smelting_raw_echoite.json
 ff4425f1115977c9951b70eaed05b929910b499d data\echoite\recipe\echoite_pickaxe.json
+70fe0784021e80f6540c09488d91c7644ef994e5 data\echoite\advancement\recipes\tools\echoite_boots.json
 cd4bc5589459cb4887ff673cf209e19bfb591d85 data\echoite\recipe\echoite_from_smelting_echoite_ore.json
+a8591ad6e11d95d6826d1e5999c55bf9a0b62e55 data\echoite\recipe\echoite_leggings.json
 1ee426f944c0a2c7ece84c4a6c8ce281de5bbc66 data\echoite\advancement\recipes\misc\echoite_ore.json
 7335d99c086e88c0f2e272ccbbac951f99d58930 data\echoite\recipe\echoite_ore.json
+6782a5bed9c40d7ac1f3aee04d5e774eb24329f2 data\echoite\recipe\echoite_helmet.json
 5ad027294528fc5048851c8b38e6c3b828bfccae data\echoite\advancement\recipes\tools\echoite_axe.json
 f4980de0e0bde7f2a35fa5721b29e4bac7acd1aa data\echoite\advancement\recipes\misc\echoite_from_blasting_echoite_ore.json
 d63b81adddbb45e44721604f7bfe252cf6e1b6f1 data\echoite\advancement\recipes\misc\echoite_from_blasting_raw_echoite.json
@@ -18,10 +21,15 @@ c290d1e6543f2bef70c2cc30ff10573edfb47326 data\echoite\recipe\echoite_hoe.json
 58f990d19f3fc1412917f71924fa725006e161d8 data\echoite\advancement\recipes\building_blocks\echoite.json
 9e08cf7977ad88d85349dc876885655bf9a2cad4 data\echoite\advancement\recipes\decorations\echoite_block.json
 4895b29ff3b4e8e6ac2dddea4ba1b8a0d8a185e8 data\echoite\advancement\recipes\misc\raw_echoite.json
+1fe09c42ede417506f5c69d79b583b23c13912cb data\echoite\recipe\echoite_boots.json
 7ee3d7fe3a3bbe96b1692ab32edd96df47413c42 data\echoite\advancement\recipes\tools\echoite_shovel.json
 607b028f980fec8d7622f3dfa7dbcdebf8ae023e data\echoite\advancement\recipes\tools\echoite_pickaxe.json
+927b8411cea2628135dbbffbdb95a591527b64b4 data\echoite\advancement\recipes\tools\echoite_helmet.json
+201f863bd364be554e9f199b7606ee376f3d80d7 data\echoite\advancement\recipes\tools\echoite_leggings.json
 eb09adad7e034efba465ef8a0aa2094a4bb660b6 data\echoite\advancement\recipes\tools\echoite_sword.json
 3def9c0c6756c19ce82dadbf36e229e734baf37d data\echoite\recipe\echoite.json
 0adb23aa500254381ddac8f4bf01ec0bf9ccc9d1 data\echoite\recipe\echoite_block.json
+ca46c5428e95a311a6784c185588558f41113eb4 data\echoite\recipe\echoite_chestplate.json
 a00913f3706c06a8992ffe5c9200cb1ad26ad303 data\echoite\advancement\recipes\tools\echoite_hoe.json
+ca633d3ee6d5aa4721749e19e8fc1b411c20aa25 data\echoite\advancement\recipes\tools\echoite_chestplate.json
 d5e2531a55a0a39bba51eba941b840a7d59a39d6 data\echoite\recipe\echoite_axe.json

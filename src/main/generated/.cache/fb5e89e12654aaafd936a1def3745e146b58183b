@@ -1,7 +1,7 @@
-// 1.21	2026-10-07T17:45:48.194553	Echoite/Model Definitions
+// 1.21	2026-10-07T18:02:25.9049976	Echoite/Model Definitions
 649d6dd7926737483b5dda8b989a21c9247ee099 assets\echoite\models\item\echoite_chestplate_diamond_trim.json
-8c501e659389a6deb1ad70a3705d11f1c0e04140 assets\echoite\models\item\echoite_helmet_gold_trim.json
 e1c57408772713b6c2b00afbbedcce29525c3adf assets\echoite\models\item\raw_echoite.json
+8c501e659389a6deb1ad70a3705d11f1c0e04140 assets\echoite\models\item\echoite_helmet_gold_trim.json
 6b0f1c2e8bf41201fe82c6ce078c412f34e17d0e assets\echoite\models\item\echoite_chestplate_quartz_trim.json
 f8d754baa7af5ac48952f57b0d9d03f36bbe1cf1 assets\echoite\models\item\echoite_leggings_emerald_trim.json
 ebd5b0b5058736a0852de20c52887098284f5e9d assets\echoite\models\item\echoite_leggings_lapis_trim.json
@@ -52,7 +52,7 @@ e6b435a963b943d496bc94ca727c4211b5bb0adf assets\echoite\models\item\echoite_helm
 54c0ebd549583b9aa484523f9e6ba80ddf152f27 assets\echoite\models\item\echoite_boots_gold_trim.json
 7be963ec54364b0d6800d39c8271655a21680a8c assets\echoite\models\item\echoite_chestplate_amethyst_trim.json
 ebdf20b1c4ff7a6598ad54fc5773818d413930d1 assets\echoite\models\item\echoite_block.json
-c927c036daf541da2ab91ee54fcc7d45805da330 assets\echoite\models\item\echoite_axe.json
 f83aade02e62fa7c7700fa0b92ab78c86f9078e1 assets\echoite\models\item\echoite_leggings_copper_trim.json
+c927c036daf541da2ab91ee54fcc7d45805da330 assets\echoite\models\item\echoite_axe.json
 37b00d0785b85896bd1d4819ab851b02326f9456 assets\echoite\models\item\echoite_helmet_diamond_trim.json
 d6ebf9c4bdb5fa9c74efd36bf33841ae03c65b51 assets\echoite\models\item\echoite_chestplate_iron_trim.json
