@@ -4,6 +4,7 @@ import com.iearth60.echoite.Echoite;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
@@ -13,6 +14,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     public static final Block ECHOITE_BLOCK = registerBlock("echoite_block",
@@ -20,8 +22,8 @@ public class ModBlocks {
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block ECHOITE_ORE = registerBlock("echoite_ore",
-            new Block(AbstractBlock.Settings.create().strength(3f)
-                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

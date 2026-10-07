@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_echoite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "echoite:echoite_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "echoite:raw_echoite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_echoite_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "echoite:raw_echoite"
+    ]
+  }
+}

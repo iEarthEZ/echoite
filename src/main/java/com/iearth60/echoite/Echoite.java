@@ -1,6 +1,7 @@
 package com.iearth60.echoite;
 
 import com.iearth60.echoite.block.ModBlocks;
+import com.iearth60.echoite.item.ModItemGroups;
 import com.iearth60.echoite.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,6 +16,8 @@ public class Echoite implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

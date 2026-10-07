@@ -1,0 +1,9 @@
+// 1.21	2026-10-07T13:00:15.1333356	Echoite/Model Definitions
+d90fe920c93e60ccd8d00c36d269bb7658a6ab39 assets\echoite\models\block\echoite_ore.json
+300daef38bba170529a12e56a0d6a2389c3ad927 assets\echoite\blockstates\echoite_ore.json
+ca17a7f91e65f44a3079aecb4de67f5c13240c54 assets\echoite\models\item\echoite_ore.json
+e1c57408772713b6c2b00afbbedcce29525c3adf assets\echoite\models\item\raw_echoite.json
+fd48899acf6e56f6150d3232eb7f39f885d2d3c5 assets\echoite\models\item\echoite.json
+54f934e7fb5fe852056ba28a3b55c57ea51dc133 assets\echoite\blockstates\echoite_block.json
+ebdf20b1c4ff7a6598ad54fc5773818d413930d1 assets\echoite\models\item\echoite_block.json
+503278670664f158e16397428955f4682dca8d21 assets\echoite\models\block\echoite_block.json
