@@ -1,6 +1,7 @@
 package com.iearth60.echoite.item;
 
 import com.iearth60.echoite.Echoite;
+import com.iearth60.echoite.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -32,16 +33,16 @@ public class ModItems {
 
     // Armor
     public static final Item ECHOITE_HELMET = registerItem("echoite_helmet",
-            new ArmorItem(ModArmorMaterials.ECHOITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.ECHOITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(37))));
     public static final Item ECHOITE_CHESTPLATE = registerItem("echoite_chestplate",
-            new ArmorItem(ModArmorMaterials.ECHOITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.ECHOITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
                     .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(37))));
     public static final Item ECHOITE_LEGGINGS = registerItem("echoite_leggings",
-            new ArmorItem(ModArmorMaterials.ECHOITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.ECHOITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(37))));
     public static final Item ECHOITE_BOOTS = registerItem("echoite_boots",
-            new ArmorItem(ModArmorMaterials.ECHOITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.ECHOITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
 
 

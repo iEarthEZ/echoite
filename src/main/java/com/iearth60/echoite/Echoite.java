@@ -3,6 +3,7 @@ package com.iearth60.echoite;
 import com.iearth60.echoite.block.ModBlocks;
 import com.iearth60.echoite.item.ModItemGroups;
 import com.iearth60.echoite.item.ModItems;
+import com.iearth60.echoite.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
@@ -17,6 +18,7 @@ public class Echoite implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+		ModWorldGeneration.generateModWorldGen();
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
