@@ -16,14 +16,22 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ECHOITE))
                     .displayName(Text.translatable("itemgroup.echoite.echoite_items"))
                     .entries((displayContext, entries) -> {
+                        // Items
                         entries.add(ModItems.ECHOITE);
                         entries.add(ModItems.RAW_ECHOITE);
 
+                        // Tools
                         entries.add(ModItems.ECHOITE_SWORD);
                         entries.add(ModItems.ECHOITE_PICKAXE);
                         entries.add(ModItems.ECHOITE_SHOVEL);
                         entries.add(ModItems.ECHOITE_AXE);
                         entries.add(ModItems.ECHOITE_HOE);
+
+                        // Armor
+                        entries.add(ModItems.ECHOITE_HELMET);
+                        entries.add(ModItems.ECHOITE_CHESTPLATE);
+                        entries.add(ModItems.ECHOITE_LEGGINGS);
+                        entries.add(ModItems.ECHOITE_BOOTS);
 
                     }).build());
 
