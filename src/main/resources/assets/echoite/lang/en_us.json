@@ -2,6 +2,12 @@
   "item.echoite.echoite": "Echoite",
   "item.echoite.raw_echoite": "Raw Echoite",
 
+  "item.echoite.echoite_sword": "Echoite Sword",
+  "item.echoite.echoite_pickaxe": "Echoite Pickaxe",
+  "item.echoite.echoite_shovel": "Echoite Shovel",
+  "item.echoite.echoite_axe": "Echoite Axe",
+  "item.echoite.echoite_hoe": "Echoite Hoe",
+
   "block.echoite.echoite_block": "Block of Echoite",
   "block.echoite.echoite_ore": "Enchoite Ore",
 

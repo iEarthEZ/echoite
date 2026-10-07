@@ -8,7 +8,9 @@ import com.iearth60.echoite.item.ModItems;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
@@ -41,6 +43,51 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_ECHOITE, 9)
                 .input(ModBlocks.ECHOITE_ORE)
                 .criterion(hasItem(ModBlocks.ECHOITE_ORE), conditionsFromItem(ModBlocks.ECHOITE_ORE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ECHOITE_SWORD)
+                .pattern(" R ")
+                .pattern(" R ")
+                .pattern(" S ")
+                .input('R', ModItems.ECHOITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ECHOITE), conditionsFromItem(ModItems.ECHOITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ECHOITE_PICKAXE)
+                .pattern("RRR")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('R', ModItems.ECHOITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ECHOITE), conditionsFromItem(ModItems.ECHOITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ECHOITE_AXE)
+                .pattern(" RR")
+                .pattern(" SR")
+                .pattern(" S ")
+                .input('R', ModItems.ECHOITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ECHOITE), conditionsFromItem(ModItems.ECHOITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ECHOITE_HOE)
+                .pattern(" RR")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('R', ModItems.ECHOITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ECHOITE), conditionsFromItem(ModItems.ECHOITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ECHOITE_SHOVEL)
+                .pattern(" R ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('R', ModItems.ECHOITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ECHOITE), conditionsFromItem(ModItems.ECHOITE))
                 .offerTo(exporter);
     }
 }

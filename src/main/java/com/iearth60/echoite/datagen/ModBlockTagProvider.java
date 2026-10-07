@@ -1,6 +1,7 @@
 package com.iearth60.echoite.datagen;
 
 import com.iearth60.echoite.block.ModBlocks;
+import com.iearth60.echoite.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -22,5 +23,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ECHOITE_ORE)
                 .add(ModBlocks.ECHOITE_BLOCK);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_ECHOITE_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
     }
 }

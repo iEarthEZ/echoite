@@ -18,6 +18,13 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.ECHOITE);
                         entries.add(ModItems.RAW_ECHOITE);
+
+                        entries.add(ModItems.ECHOITE_SWORD);
+                        entries.add(ModItems.ECHOITE_PICKAXE);
+                        entries.add(ModItems.ECHOITE_SHOVEL);
+                        entries.add(ModItems.ECHOITE_AXE);
+                        entries.add(ModItems.ECHOITE_HOE);
+
                     }).build());
 
     public static final ItemGroup ECHOITE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
