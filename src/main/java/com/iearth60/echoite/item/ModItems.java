@@ -1,5 +1,8 @@
 package com.iearth60.echoite.item;
 
+import com.iearth60.echoite.item.custom.EchoiteBowItem;
+import com.iearth60.echoite.item.custom.EchoiteSwordItem;
+
 import com.iearth60.echoite.Echoite;
 import com.iearth60.echoite.block.ModBlocks;
 import com.iearth60.echoite.item.custom.ModArmorItem;
@@ -21,8 +24,9 @@ public class ModItems {
 
     //Tools
     public static final Item ECHOITE_SWORD = registerItem("echoite_sword",
-            new SwordItem(ModToolMaterials.ECHOITE, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.ECHOITE, 9, -1.4f))));
+            new EchoiteSwordItem(ModToolMaterials.ECHOITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.ECHOITE, 6, -1.4f))));
+
     public static final Item ECHOITE_PICKAXE = registerItem("echoite_pickaxe",
             new PickaxeItem(ModToolMaterials.ECHOITE, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.ECHOITE, 1, -2.8f))));
@@ -31,7 +35,7 @@ public class ModItems {
                     .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.ECHOITE, 1.5f, -3.0f))));
     public static final Item ECHOITE_AXE = registerItem("echoite_axe",
             new AxeItem(ModToolMaterials.ECHOITE, new Item.Settings()
-                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.ECHOITE, 6, -2.2f))));
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.ECHOITE, 4, -2.2f))));
     public static final Item ECHOITE_HOE = registerItem("echoite_hoe",
             new HoeItem(ModToolMaterials.ECHOITE, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.ECHOITE, 0, -3f))));
@@ -56,7 +60,8 @@ public class ModItems {
 
 
     public static final Item ECHOITE_BOW = registerItem("echoite_bow",
-            new BowItem(new Item.Settings().maxDamage(800)));
+            new EchoiteBowItem(new Item.Settings().maxDamage(800)));
+
 
     public static final Item ECHOI_BERRIES = registerItem("echoi_berries",
             new AliasedBlockItem(ModBlocks.ECHOI_BERRY_BUSH, new Item.Settings().food(ModFoodComponents.ECHOI_BERRY)));
