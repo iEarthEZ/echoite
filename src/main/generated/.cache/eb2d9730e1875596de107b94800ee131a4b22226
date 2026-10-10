@@ -1,8 +1,8 @@
-// 1.21	2026-10-07T18:33:34.2773362	Echoite/Tags for minecraft:item
+// 1.21	2026-10-10T11:01:18.033559	Echoite/Tags for minecraft:item
 1c57aecfe4ff61f25510a8d9c30a2bcf19a7cb61 data\minecraft\tags\item\pickaxes.json
 966fbdae7ec2fec777392be72f177cd154f8eeec data\minecraft\tags\item\axes.json
 ec3a2cc85ecd450ca6489f04f3239da78a1bd08a data\minecraft\tags\item\shovels.json
 14da54cf74516ff2536852e9a2b927948a7d57ca data\minecraft\tags\item\trimmable_armor.json
 dde00527ce75efde6d1c42e832fe8beb67a70319 data\minecraft\tags\item\hoes.json
-5ced620058cad966f078f75d39baaa1b7315fece data\minecraft\tags\item\swords.json
 074626e6cb254909d11216658f61f62ec923fe1a data\echoite\tags\item\transformable_items.json
+5ced620058cad966f078f75d39baaa1b7315fece data\minecraft\tags\item\swords.json

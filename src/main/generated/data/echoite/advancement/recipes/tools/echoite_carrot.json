@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_echoite_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "echoite:echoite_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "echoite:echoite_carrot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_echoite_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "echoite:echoite_carrot"
+    ]
+  }
+}

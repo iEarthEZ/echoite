@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "echoite:echoite_block"
+    },
+    "S": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RSR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "echoite:echoite_carrot"
+  }
+}

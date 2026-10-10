@@ -6,6 +6,7 @@ import com.iearth60.echoite.item.ModItems;
 import com.iearth60.echoite.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.util.Identifier;
 
 import org.slf4j.Logger;
@@ -19,6 +20,8 @@ public class Echoite implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModWorldGeneration.generateModWorldGen();
+
+		FuelRegistry.INSTANCE.add(ModItems.ECOALHITE, 2600);
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();

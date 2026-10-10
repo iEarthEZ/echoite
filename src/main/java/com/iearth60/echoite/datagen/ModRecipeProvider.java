@@ -118,5 +118,37 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', ModItems.ECHOITE)
                 .criterion(hasItem(ModItems.ECHOITE), conditionsFromItem(ModItems.ECHOITE))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ECHOITE_CARROT)
+                .pattern("RRR")
+                .pattern("RSR")
+                .pattern("RRR")
+                .input('R', ModBlocks.ECHOITE_BLOCK)
+                .input('S', Items.CARROT)
+                .criterion(hasItem(ModBlocks.ECHOITE_BLOCK), conditionsFromItem(ModBlocks.ECHOITE_BLOCK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ECHOITE_HORSE_ARMOR)
+                .pattern("   ")
+                .pattern("R R")
+                .pattern("RRR")
+                .input('R', ModItems.ECHOITE)
+                .criterion(hasItem(ModItems.ECHOITE), conditionsFromItem(ModItems.ECHOITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ECHOITE_BOW)
+                .pattern(" SR")
+                .pattern("S R")
+                .pattern(" SR")
+                .input('R', Items.STICK)
+                .input('S', ModItems.ECHOITE)
+                .criterion(hasItem(ModItems.ECHOITE), conditionsFromItem(ModItems.ECHOITE))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ECOALHITE)
+                .input(ModItems.ECHOITE)
+                .input(Items.COAL)
+                .criterion(hasItem(ModItems.ECHOITE), conditionsFromItem(ModItems.ECHOITE))
+                .offerTo(exporter);
     }
 }

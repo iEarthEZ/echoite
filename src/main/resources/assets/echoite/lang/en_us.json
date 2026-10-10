@@ -2,11 +2,18 @@
   "item.echoite.echoite": "Echoite",
   "item.echoite.raw_echoite": "Raw Echoite",
 
+  "item.echoite.echoite_carrot": "Echoite Carrot",
+  "item.echoite.ecoalhite": "Ecoalhite",
+
   "item.echoite.echoite_sword": "Echoite Sword",
   "item.echoite.echoite_pickaxe": "Echoite Pickaxe",
   "item.echoite.echoite_shovel": "Echoite Shovel",
   "item.echoite.echoite_axe": "Echoite Axe",
   "item.echoite.echoite_hoe": "Echoite Hoe",
+
+  "item.echoite.echoite_bow": "Echoite Bow",
+
+  "item.echoite.echoite_horse_armor": "Echoite Horse Armor",
 
   "item.echoite.echoite_helmet": "Echoite Helmet",
   "item.echoite.echoite_chestplate": "Echoite Chestplate",

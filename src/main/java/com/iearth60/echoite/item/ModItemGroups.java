@@ -20,6 +20,11 @@ public class ModItemGroups {
                         entries.add(ModItems.ECHOITE);
                         entries.add(ModItems.RAW_ECHOITE);
 
+                        // Food
+                        entries.add(ModItems.ECHOITE_CARROT);
+
+                        entries.add(ModItems.ECOALHITE);
+
                         // Tools
                         entries.add(ModItems.ECHOITE_SWORD);
                         entries.add(ModItems.ECHOITE_PICKAXE);
@@ -27,11 +32,15 @@ public class ModItemGroups {
                         entries.add(ModItems.ECHOITE_AXE);
                         entries.add(ModItems.ECHOITE_HOE);
 
+                        entries.add(ModItems.ECHOITE_BOW);
+
                         // Armor
                         entries.add(ModItems.ECHOITE_HELMET);
                         entries.add(ModItems.ECHOITE_CHESTPLATE);
                         entries.add(ModItems.ECHOITE_LEGGINGS);
                         entries.add(ModItems.ECHOITE_BOOTS);
+
+                        entries.add(ModItems.ECHOITE_HORSE_ARMOR);
 
                     }).build());
 

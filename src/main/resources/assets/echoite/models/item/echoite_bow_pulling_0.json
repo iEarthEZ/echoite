@@ -1,0 +1,6 @@
+{
+  "parent": "echoite:item/echoite_bow",
+  "textures": {
+    "layer0": "echoite:item/echoite_bow_pulling_0"
+  }
+}

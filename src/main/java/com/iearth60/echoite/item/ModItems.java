@@ -13,6 +13,11 @@ public class ModItems {
     public static final Item ECHOITE = registerItem("echoite", new Item(new Item.Settings()));
     public static final Item RAW_ECHOITE = registerItem("raw_echoite", new Item(new Item.Settings()));
 
+    // Food
+    public static final Item ECHOITE_CARROT = registerItem("echoite_carrot", new Item(new Item.Settings().food(ModFoodComponents.ECHOITE_CARROT)));
+
+    public static final Item ECOALHITE = registerItem("ecoalhite", new Item(new Item.Settings()));
+
     //Tools
     public static final Item ECHOITE_SWORD = registerItem("echoite_sword",
             new SwordItem(ModToolMaterials.ECHOITE, new Item.Settings()
@@ -45,7 +50,12 @@ public class ModItems {
             new ModArmorItem(ModArmorMaterials.ECHOITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
 
+    public static final Item ECHOITE_HORSE_ARMOR = registerItem("echoite_horse_armor",
+            new AnimalArmorItem(ModArmorMaterials.ECHOITE_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
 
+
+    public static final Item ECHOITE_BOW = registerItem("echoite_bow",
+            new BowItem(new Item.Settings().maxDamage(800)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Echoite.MOD_ID, name), item);

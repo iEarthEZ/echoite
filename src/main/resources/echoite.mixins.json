@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.iearth60.echoite.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EchoiteMixin"
+  ],
+  "client": [
+    "AbstractClientPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -25,6 +25,9 @@
 			"com.iearth60.echoite.EchoiteClientClass"
 		]
 	},
+	"mixins": [
+		"echoite.mixins.json"
+	],
 	"depends": {
 		"fabricloader": ">=0.19.5",
 		"minecraft": "~1.21",
