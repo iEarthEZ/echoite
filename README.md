@@ -2,7 +2,7 @@
 
 Echoite is a minecraft java edition mod that introduces a brand-new ore along with unique items, powerful equipment and special abilities to make surviving and beating the game more exciting.
 
-You can watch the showcase at [<yt link>](https://youtu.be/xW1VAL9w2SY) **OR** read below for indepth details.
+You can watch the showcase at https://youtu.be/xW1VAL9w2SY **OR** read below for indepth details.
 
 ## Features
 
