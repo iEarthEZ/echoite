@@ -23,6 +23,9 @@
   "block.echoite.echoite_block": "Block of Echoite",
   "block.echoite.echoite_ore": "Enchoite Ore",
 
+  "block.echoite.echoi_berry_bush": "Echoi Berry Bush",
+  "item.echoite.echoi_berries": "Echoi Berries",
+
   "itemgroup.echoite.echoite_items": "Echoite Items",
   "itemgroup.echoite.echoite_blocks": "Echoite Blocks"
 }

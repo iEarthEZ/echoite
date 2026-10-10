@@ -42,6 +42,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.ECHOITE_HORSE_ARMOR);
 
+                        entries.add(ModItems.ECHOI_BERRIES);
                     }).build());
 
     public static final ItemGroup ECHOITE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

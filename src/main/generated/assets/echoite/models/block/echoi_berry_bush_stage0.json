@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "echoite:block/echoi_berry_bush_stage0"
+  }
+}

@@ -1,6 +1,7 @@
 package com.iearth60.echoite.item;
 
 import com.iearth60.echoite.Echoite;
+import com.iearth60.echoite.block.ModBlocks;
 import com.iearth60.echoite.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
@@ -56,6 +57,9 @@ public class ModItems {
 
     public static final Item ECHOITE_BOW = registerItem("echoite_bow",
             new BowItem(new Item.Settings().maxDamage(800)));
+
+    public static final Item ECHOI_BERRIES = registerItem("echoi_berries",
+            new AliasedBlockItem(ModBlocks.ECHOI_BERRY_BUSH, new Item.Settings().food(ModFoodComponents.ECHOI_BERRY)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Echoite.MOD_ID, name), item);

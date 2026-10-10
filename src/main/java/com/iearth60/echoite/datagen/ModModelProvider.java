@@ -1,5 +1,6 @@
 package com.iearth60.echoite.datagen;
 
+import com.iearth60.echoite.block.custom.EchoiBerryBushBlock;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import com.iearth60.echoite.block.ModBlocks;
@@ -18,6 +19,9 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ECHOITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ECHOITE_ORE);
+
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.ECHOI_BERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
+                EchoiBerryBushBlock.AGE, 0, 1, 2, 3);
     }
 
     @Override

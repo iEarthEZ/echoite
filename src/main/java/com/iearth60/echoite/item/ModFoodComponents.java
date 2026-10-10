@@ -11,4 +11,7 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 1), 1.0F)
             .alwaysEdible()
             .build();
+
+    public static final FoodComponent ECHOI_BERRY = new FoodComponent.Builder().nutrition(3).saturationModifier(0.25F).snack().build();
+
 }
